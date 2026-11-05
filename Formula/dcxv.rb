@@ -1,21 +1,21 @@
 class Dcxv < Formula
   desc "Manage DCXV servers, orders and payments from the terminal"
   homepage "https://dcxv.com/cli"
-  version "0.7.3"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dcxv-com/dcxv-cli/releases/download/v0.7.3/dcxv-macos-arm64"
-      sha256 "351d4114371d95a158bb9333d82933590a1cdb241dd58b613bbc05d3d76834d0"
+      url "https://github.com/dcxv-com/dcxv-cli/releases/download/v0.8.0/dcxv-macos-arm64"
+      sha256 "da7e96c1067f8d0388c148ac0436937288bc364a865f0ef814bcd29131b2e0dd"
 
       def install
         bin.install "dcxv-macos-arm64" => "dcxv"
       end
     end
     on_intel do
-      url "https://github.com/dcxv-com/dcxv-cli/releases/download/v0.7.3/dcxv-macos-x64"
-      sha256 "2c185a0037e8a891d03cf001d336e3fcc4854aa04e6cfd1d4a47c569cbb497e1"
+      url "https://github.com/dcxv-com/dcxv-cli/releases/download/v0.8.0/dcxv-macos-x64"
+      sha256 "50cdda58d1fb87e8f6892d1d74fc0620b4d88b85adf6568aec977c6deb666609"
 
       def install
         bin.install "dcxv-macos-x64" => "dcxv"
